@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#What_is_Python">What is Python</a></li>
+        <li><a class="nav-link" href="#Indentation">Indentation</a></li>
+        <li><a class="nav-link" href="#Comments">Comments</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+        <li><a class="nav-link" href="#Numbers">Numbers</a></li>
+        <li><a class="nav-link" href="#Strings">Strings</a></li>
+        <li><a class="nav-link" href="#Booleans">Booleans</a></li>
+      </ul>
+      </nav>
+      
+      <!-- Beginning the main content -->
+      
+      <main id="main-doc">
+
+        <!-- Start a Section -->
+        <section class="main-section" id="What_is_Python">
+          <header>What is Python?</header>
+          
+          <article>
+            <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. It is used for:</p>
+          
+            <ul>
+              <li>web development (server-side),
+  </li>
+              <li>software development,
+  </li>
+              <li>mathematics,
+  </li>
+              <li>system scripting.
+  </li>
+            </ul>
+            <p>You can use <code>print("Hello, World!")</code> to write something on the screen.</p>
+            
+          </article>
+          
+        </section>
+        
+  <!-- End of a Section --> 
+
+        <!-- Start a Section -->
+        <section class="main-section" id="Indentation">
+          <header>Indentation</header>
+          
+          <article>
+            <p>Indentation refers to the spaces at the beginning of a code line.</p> 
+              <p>Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.</p>
+  
+  <p>Python uses indentation to indicate a block of code. Example:</p>
+           <pre>
+          <code>if 5 > 2:
+            print("Five is greater than two!")</code>
+          </pre> 
+          </article>
+          
+        </section>
+        
+  <!-- End of a Section -->
+
+        <!-- Start a Section -->
+        <section class="main-section" id="Comments">
+          <header>Comments</header>
+          
+          <article>
+            <p>Comments can be used to explain Python code.</p>
+            <p>Comments can be used to make the code more readable.</p>
+            <p>Comments can be used to prevent execution when testing code.</p>
+            <pre>
+          <code>#This is a comment
+          print("Hello, World!")</code>
+          </pre> 
+          </article>
+          
+        </section>
+        
+  <!-- End of a Section -->
+
+        <!-- Start a Section -->
+        <section class="main-section" id="Variables">
+          <header>Variables</header>
+          
+          <article>
+            <p>Python has no command for declaring a variable.</p>
+            <p>A variable is created the moment you first assign a value to it.
+  </p>
+           <pre>
+          <code>x = 5
+          y = "John"
+          print(x)
+          print(y)</code>
+          </pre> 
+          </article>
+          
+        </section>
+        
+  <!-- End of a Section -->
+
+        <!-- Start a Section -->
+        <section class="main-section" id="Data_Types">
+          <header>Data Types</header>
+          
+          <article>
+            <p>In programming, data type is an important concept.</p>
+            <p>Variables can store data of different types, and different types can do different things.</p>
+            <p>Python has the following data types built-in by default, in these categories:</p>
+            <ul>
+              <li>Text Type: str</li>
+              <li>Numeric Types: int, float, complex</li>
+              <li>Sequence Types: list, tuple, range</li>
+              <li>Mapping Type: dict</li>
+              <li>Set Types: set, frozenset</li>
+              <li>Boolean Type: bool</li>
+              <li>Binary Types:	bytes, bytearray, memoryview</li>
+              <li>None Type: NoneType</li>
+  
+            </ul>
+            
+          </article>
+          
+        </section>
+        
+  <!-- End of a Section -->
+
+        <!-- Start a Section -->
+        <section class="main-section" id="Numbers">
+          <header>Numbers</header>
+          
+          <article>
+            <p>There are three numeric types in Python:</p>
+            <ul>
+              <li>int</li>
+              <li>float</li>
+              <li>complex</li>
+            </ul>
+              <p>Variables of numeric types are created when you assign a value to them:</p>
+              <pre>
+          <code>x = 1    # int
+          y = 2.8  # float
+          z = 1j   # complex</code>
+             </pre>
+            
+          </article>
+          
+        </section>
+        
+  <!-- End of a Section -->
+        
+        <!-- Start of a Section -->
+        <section class="main-section" id="Strings">
+          <header>Strings</header>
+          
+          <article>
+            <p>Strings in python are surrounded by either single quotation marks, or double quotation marks.</p>
+            <p><code>'hello'</code> is the same as <code>"hello"</code>.</p>
+            <p>You can display a string literal with the <code>print()</code> function:<p>
+            <pre>
+          <code>print("Hello")
+          print('Hello')</code>
+            </pre>
+   
+            
+          </article>  
+        </section>
+        
+  <!-- End of a Section -->
+        
+        <!-- Start a Section -->
+        <section class="main-section" id="Booleans">
+          <header>Booleans</header>
+          
+          <article>
+            <p>In programming you often need to know if an expression is <code>True</code> or <code>False</code>.</p>
+            <p>You can evaluate any expression in Python, and get one of two answers, <code>True</code> or <code>False</code>.</p>
+            <p>When you compare two values, the expression is evaluated and Python returns the Boolean answer:
+  </p>
+            <pre>
+          <code>print(10 > 9)
+          print(10 == 9)
+          print(10 < 9)</code>
+          </pre>
+      
+          </article>
+          
+        </section>  
+      </main>
+    
+  </body>
+</html>
